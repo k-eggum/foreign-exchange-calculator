@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ForeignExchangeCalculator",
+    "\\ForeignExchangeCalculator\\exchangerateweb"
   ],
-  "SelectedNode": "\\C:\\Users\\fkkajeri\\Documents\\privateSource\\repos\\foreign-exchange-calculator",
   "PreviewInSolutionExplorer": false
 }

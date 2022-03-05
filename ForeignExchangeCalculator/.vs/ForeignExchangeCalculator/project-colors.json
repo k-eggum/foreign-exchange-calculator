@@ -20,7 +20,17 @@
       "ProjectGuid": "b4c911fe-6935-407d-8e7f-11e2f05e04f1",
       "DisplayName": "ExchangeRateWeb",
       "ColorIndex": 2
+    },
+    "e4f18dd3-c7b6-4a1a-90e2-b7d29d7c9f23": {
+      "ProjectGuid": "e4f18dd3-c7b6-4a1a-90e2-b7d29d7c9f23",
+      "DisplayName": "exchangerateweb",
+      "ColorIndex": 3
+    },
+    "7d4601d6-3913-4d89-a8d9-6b375706e3e2": {
+      "ProjectGuid": "7d4601d6-3913-4d89-a8d9-6b375706e3e2",
+      "DisplayName": "CurrencyCalculatorWeb",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
