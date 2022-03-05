@@ -23,6 +23,11 @@ namespace ExchangeRateAPI.Controllers
                 return BadRequest("Base currency must be EUR");
             }
 
+            if(amount == 0)
+            {
+                return BadRequest("Missing amount to convert");
+            }
+
             ExchangeRatesDto? exchangeRateResponse;
             if (rateDate != null)
             {

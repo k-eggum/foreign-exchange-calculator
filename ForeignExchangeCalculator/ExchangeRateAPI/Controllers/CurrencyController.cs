@@ -5,11 +5,11 @@ namespace ExchangeRateAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CurrenyController : ControllerBase
+    public class CurrencyController : ControllerBase
     {
         private FixerClient _fixerClient;
 
-        public CurrenyController()
+        public CurrencyController()
         {
             _fixerClient = new FixerClient();
         }
