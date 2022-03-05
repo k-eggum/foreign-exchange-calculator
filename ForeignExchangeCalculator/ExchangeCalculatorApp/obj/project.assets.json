@@ -9,7 +9,7 @@
   },
   "packageFolders": {
     "C:\\Users\\fkkajeri\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -22,7 +22,7 @@
       "outputPath": "C:\\Users\\fkkajeri\\Documents\\privateSource\\repos\\foreign-exchange-calculator\\ForeignExchangeCalculator\\ExchangeCalculatorApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
