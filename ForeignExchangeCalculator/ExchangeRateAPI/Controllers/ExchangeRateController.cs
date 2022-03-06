@@ -1,4 +1,4 @@
-﻿using ExchangeRateAPI.FixerService;
+﻿using ExchangeRateAPI.Contexts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ExchangeRateAPI.Controllers
@@ -7,22 +7,22 @@ namespace ExchangeRateAPI.Controllers
     [ApiController]
     public class ExchangeRateController : ControllerBase
     {
-        private FixerClient _fixerClient;
+        private ExchangeRateContext _context;
 
-        public ExchangeRateController()
+        public ExchangeRateController(ExchangeRateContext context)
         {
-            _fixerClient = new FixerClient();
+            _context = context;
         }
 
         [HttpGet(Name = "GetExchangeRates")]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get(string targetCurrency)
         {
-            var result = await _fixerClient.GetLatestExchangeRates();
-            if (result != null && result.Success)
+            var result = _context.ExchangeRates.Where(r => r.TargetCurrency.Equals(targetCurrency)).OrderBy(r => r.Date).ToList();
+            if (result.Any())
             {
                 return Ok(result);
             }
-            return StatusCode(StatusCodes.Status500InternalServerError, result?.Error);
+            return NotFound();
         }
     }
 }
