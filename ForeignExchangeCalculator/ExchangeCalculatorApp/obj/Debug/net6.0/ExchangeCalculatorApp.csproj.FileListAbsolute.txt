@@ -4,7 +4,6 @@ C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\Fore
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\bin\Debug\net6.0\ExchangeCalculatorApp.dll
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\bin\Debug\net6.0\ref\ExchangeCalculatorApp.dll
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\bin\Debug\net6.0\ExchangeCalculatorApp.pdb
-C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\obj\Debug\net6.0\ExchangeCalculatorApp.csproj.AssemblyReference.cache
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\obj\Debug\net6.0\ExchangeCalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\obj\Debug\net6.0\ExchangeCalculatorApp.AssemblyInfoInputs.cache
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\obj\Debug\net6.0\ExchangeCalculatorApp.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\Fore
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\obj\Debug\net6.0\ref\ExchangeCalculatorApp.dll
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\obj\Debug\net6.0\ExchangeCalculatorApp.pdb
 C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\obj\Debug\net6.0\ExchangeCalculatorApp.genruntimeconfig.cache
+C:\Users\fkkajeri\Documents\privateSource\repos\foreign-exchange-calculator\ForeignExchangeCalculator\ExchangeCalculatorApp\obj\Debug\net6.0\ExchangeCalculatorApp.csproj.AssemblyReference.cache
