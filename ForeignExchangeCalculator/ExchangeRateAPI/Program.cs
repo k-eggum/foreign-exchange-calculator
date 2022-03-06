@@ -57,7 +57,4 @@ if (app.Environment.IsDevelopment())
     RecurringJob.AddOrUpdate<ExchangeRatesBusinessProvider>("ImportTodaysExchangeRates", x => x.ImportTodaysExchangeRates(), "0 4 * * *", TimeZoneInfo.Utc);
 }
 
-
-
-
 app.Run();

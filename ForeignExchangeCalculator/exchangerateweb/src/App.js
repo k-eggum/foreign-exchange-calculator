@@ -38,9 +38,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Calculate currency</h1>
+      <h1 className="App-header">Calculate currency</h1>
       <label>
-        Base currency:
+        Base currency:&nbsp;
         <input 
           type='text' 
           name='baseCurrency' 
@@ -55,7 +55,7 @@ function App() {
       </label>
       <br />
       <label>
-        Target currency*:
+        Target currency*:&nbsp;
         <input 
           type='text' 
           name='targetCurrency' 
@@ -70,7 +70,7 @@ function App() {
       </label>
       <br />
       <label>
-        Amount to convert*:
+        Amount to convert*:&nbsp;
         <input 
           type='number' 
           name='amount' 
@@ -82,10 +82,11 @@ function App() {
             })
           }}
         />
+        &nbsp;{currencyForm.baseCurrency}
       </label>
       <br />
       <label>
-        Conversion rate date:
+        Conversion rate date:&nbsp;
         <input 
           type='date' 
           name='rateDate' 
@@ -102,10 +103,10 @@ function App() {
       <button onClick={calculateAmount}>Calculate amount</button>
       <br />
       {calculationResult && 
-        <label>Calculated amount: {calculationResult}</label>
+        <label>Calculated amount: {calculationResult} {currencyForm.targetCurrency}</label>
       }
       {calculationError &&
-        <label>Feilmelding: {calculationError}</label>
+        <label className="error-label">Error message: {calculationError}</label>
       }
       {loadingCalculation &&
         <label>Calculating...</label>

@@ -15,7 +15,7 @@ namespace ExchangeRateAPI.Controllers
         }
 
         [HttpGet(Name = "GetExchangeRates")]
-        public async Task<IActionResult> Get(string targetCurrency)
+        public IActionResult Get(string targetCurrency)
         {
             var result = _context.ExchangeRates.Where(r => r.TargetCurrency.Equals(targetCurrency)).OrderBy(r => r.Date).ToList();
             if (result.Any())
